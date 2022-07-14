@@ -4,7 +4,7 @@ pipeline {
                 PATH = "/opt/maven3/bin:$PATH"
    }
     stages {
-        stage('Maven-Build') {
+        stage('Maven-Build1') {
             steps {
                 sh 'mvn clean package'
             }
